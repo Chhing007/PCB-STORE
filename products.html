@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | PCB-STORE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">PCB-STORE</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="btn-login">Login</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Page Header -->
+        <section class="about-hero">
+            <div class="about-content">
+                <h1>Our <span>Products</span></h1>
+                <p>Browse our extensive collection of premium computer components and hardware</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="section">
+            <div class="products-grid">
+                <!-- Product 1: CPU -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Hot</span>
+                        <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 150px;">
+                            <rect x="50" y="20" width="100" height="110" rx="5" stroke="url(#cpuGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <rect x="70" y="40" width="60" height="70" rx="2" fill="url(#cpuGrad)" opacity="0.3"/>
+                            <rect x="85" y="55" width="30" height="40" rx="2" fill="#00d4ff" opacity="0.6"/>
+                            <rect x="55" y="25" width="3" height="10" fill="#00d4ff"/>
+                            <rect x="65" y="25" width="3" height="10" fill="#00d4ff"/>
+                            <rect x="75" y="25" width="3" height="10" fill="#00d4ff"/>
+                            <rect x="120" y="25" width="3" height="10" fill="#00d4ff"/>
+                            <rect x="130" y="25" width="3" height="10" fill="#00d4ff"/>
+                            <rect x="140" y="25" width="3" height="10" fill="#00d4ff"/>
+                            <defs>
+                                <linearGradient id="cpuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0066ff"/>
+                                    <stop offset="100%" style="stop-color:#00d4ff"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>Intel Core i9-14900K</h3>
+                        <p class="category">Processors</p>
+                        <div class="product-price">
+                            <span class="current-price">$589.99</span>
+                            <span class="original-price">$649.99</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2: GPU -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 150px;">
+                            <rect x="30" y="40" width="140" height="70" rx="5" stroke="url(#gpuGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <rect x="50" y="55" width="50" height="40" rx="3" fill="url(#gpuGrad)" opacity="0.4"/>
+                            <rect x="60" y="65" width="30" height="20" rx="2" fill="#00d4ff" opacity="0.7"/>
+                            <rect x="110" y="55" width="15" height="15" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="130" y="55" width="15" height="15" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="110" y="80" width="15" height="15" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="130" y="80" width="15" height="15" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="155" y="65" width="10" height="20" fill="#00d4ff" opacity="0.6"/>
+                            <defs>
+                                <linearGradient id="gpuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0066ff"/>
+                                    <stop offset="100%" style="stop-color:#00d4ff"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>RTX 4090 Gaming OC</h3>
+                        <p class="category">Graphics Cards</p>
+                        <div class="product-price">
+                            <span class="current-price">$1,599.99</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3: RAM -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">Sale</span>
+                        <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 150px;">
+                            <rect x="40" y="30" width="30" height="90" rx="3" stroke="url(#ramGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <rect x="85" y="30" width="30" height="90" rx="3" stroke="url(#ramGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <rect x="130" y="30" width="30" height="90" rx="3" stroke="url(#ramGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <rect x="45" y="40" width="20" height="3" fill="#00d4ff" opacity="0.8"/>
+                            <rect x="45" y="50" width="20" height="3" fill="#00d4ff" opacity="0.8"/>
+                            <rect x="90" y="40" width="20" height="3" fill="#00d4ff" opacity="0.8"/>
+                            <rect x="90" y="50" width="20" height="3" fill="#00d4ff" opacity="0.8"/>
+                            <rect x="135" y="40" width="20" height="3" fill="#00d4ff" opacity="0.8"/>
+                            <rect x="135" y="50" width="20" height="3" fill="#00d4ff" opacity="0.8"/>
+                            <rect x="45" y="70" width="8" height="8" fill="#00d4ff" opacity="0.6"/>
+                            <rect x="58" y="70" width="8" height="8" fill="#00d4ff" opacity="0.6"/>
+                            <rect x="90" y="70" width="8" height="8" fill="#00d4ff" opacity="0.6"/>
+                            <rect x="103" y="70" width="8" height="8" fill="#00d4ff" opacity="0.6"/>
+                            <defs>
+                                <linearGradient id="ramGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0066ff"/>
+                                    <stop offset="100%" style="stop-color:#00d4ff"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>Corsair 64GB DDR5</h3>
+                        <p class="category">Memory</p>
+                        <div class="product-price">
+                            <span class="current-price">$289.99</span>
+                            <span class="original-price">$349.99</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 4: Motherboard -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 150px;">
+                            <rect x="30" y="20" width="140" height="110" rx="5" stroke="url(#mbGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <rect x="60" y="40" width="40" height="40" rx="3" fill="url(#mbGrad)" opacity="0.4"/>
+                            <rect x="70" y="50" width="20" height="20" rx="2" fill="#00d4ff" opacity="0.6"/>
+                            <rect x="110" y="35" width="8" height="50" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="122" y="35" width="8" height="50" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="134" y="35" width="8" height="50" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="146" y="35" width="8" height="50" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="60" y="95" width="80" height="10" rx="2" fill="#00d4ff" opacity="0.6"/>
+                            <rect x="100" y="80" width="25" height="25" rx="3" fill="#00d4ff" opacity="0.4"/>
+                            <defs>
+                                <linearGradient id="mbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0066ff"/>
+                                    <stop offset="100%" style="stop-color:#00d4ff"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>ROG Maximus Z790</h3>
+                        <p class="category">Motherboards</p>
+                        <div class="product-price">
+                            <span class="current-price">$629.99</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 5: SSD -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 150px;">
+                            <rect x="60" y="40" width="80" height="70" rx="5" stroke="url(#ssdGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <rect x="75" y="55" width="50" height="8" rx="2" fill="#00d4ff" opacity="0.6"/>
+                            <rect x="75" y="70" width="35" height="8" rx="2" fill="#00d4ff" opacity="0.6"/>
+                            <rect x="75" y="85" width="40" height="8" rx="2" fill="#00d4ff" opacity="0.6"/>
+                            <circle cx="140" cy="60" r="8" fill="#00d4ff" opacity="0.5"/>
+                            <circle cx="155" cy="60" r="8" fill="#00d4ff" opacity="0.5"/>
+                            <defs>
+                                <linearGradient id="ssdGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0066ff"/>
+                                    <stop offset="100%" style="stop-color:#00d4ff"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>Samsung 990 Pro 2TB</h3>
+                        <p class="category">Storage</p>
+                        <div class="product-price">
+                            <span class="current-price">$179.99</span>
+                            <span class="original-price">$229.99</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 6: PSU -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 150px;">
+                            <rect x="40" y="45" width="120" height="60" rx="5" stroke="url(#psuGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <circle cx="80" cy="75" r="20" fill="url(#psuGrad)" opacity="0.3"/>
+                            <rect x="75" y="70" width="10" height="10" fill="#00d4ff" opacity="0.6"/>
+                            <rect x="120" y="55" width="25" height="40" rx="3" fill="#00d4ff" opacity="0.2" stroke="url(#psuGrad)" stroke-width="1"/>
+                            <rect x="125" y="60" width="15" height="6" rx="1" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="125" y="70" width="15" height="6" rx="1" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="125" y="80" width="15" height="6" rx="1" fill="#00d4ff" opacity="0.5"/>
+                            <defs>
+                                <linearGradient id="psuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0066ff"/>
+                                    <stop offset="100%" style="stop-color:#00d4ff"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>Corsair RM850x 850W</h3>
+                        <p class="category">Power Supply</p>
+                        <div class="product-price">
+                            <span class="current-price">$149.99</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 7: CPU Cooler -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 150px;">
+                            <rect x="60" y="30" width="80" height="80" rx="5" stroke="url(#coolerGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <circle cx="100" cy="70" r="25" fill="url(#coolerGrad)" opacity="0.3"/>
+                            <circle cx="100" cy="70" r="15" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="95" y="30" width="10" height="80" fill="#00d4ff" opacity="0.2"/>
+                            <rect x="60" y="65" width="80" height="10" fill="#00d4ff" opacity="0.2"/>
+                            <rect x="75" y="115" width="50" height="10" rx="2" fill="#00d4ff" opacity="0.4"/>
+                            <defs>
+                                <linearGradient id="coolerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0066ff"/>
+                                    <stop offset="100%" style="stop-color:#00d4ff"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>NZXT Kraken X73</h3>
+                        <p class="category">CPU Coolers</p>
+                        <div class="product-price">
+                            <span class="current-price">$279.99</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 8: PC Case -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="product-badge">New</span>
+                        <svg viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 150px;">
+                            <rect x="50" y="25" width="100" height="100" rx="5" stroke="url(#caseGrad)" stroke-width="2" fill="rgba(0,102,255,0.1)"/>
+                            <rect x="65" y="40" width="70" height="70" rx="3" stroke="url(#caseGrad)" stroke-width="1" fill="none" opacity="0.5"/>
+                            <circle cx="85" cy="95" r="4" fill="#00d4ff" opacity="0.7"/>
+                            <circle cx="95" cy="95" r="4" fill="#00d4ff" opacity="0.7"/>
+                            <circle cx="105" cy="95" r="4" fill="#00d4ff" opacity="0.7"/>
+                            <rect x="75" y="55" width="20" height="8" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="100" y="55" width="20" height="8" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="75" y="68" width="20" height="8" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <rect x="100" y="68" width="20" height="8" rx="2" fill="#00d4ff" opacity="0.5"/>
+                            <defs>
+                                <linearGradient id="caseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0066ff"/>
+                                    <stop offset="100%" style="stop-color:#00d4ff"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="product-info">
+                        <h3>Lian Li O11 Dynamic</h3>
+                        <p class="category">Cases</p>
+                        <div class="product-price">
+                            <span class="current-price">$169.99</span>
+                        </div>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">PCB-STORE</a>
+                    <p>Your trusted destination for premium computer hardware. Building the future, one component at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="products.html">Processors</a></li>
+                        <li><a href="products.html">Graphics Cards</a></li>
+                        <li><a href="products.html">Memory</a></li>
+                        <li><a href="products.html">Storage</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Help Center</a></li>
+                        <li><a href="contact.html">Returns</a></li>
+                        <li><a href="contact.html">Shipping Info</a></li>
+                        <li><a href="contact.html">Track Order</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PCB-STORE. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="Instagram">i</a>
+                    <a href="#" aria-label="YouTube">y</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
