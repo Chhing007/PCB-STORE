@@ -363,8 +363,17 @@ main {
 }
 
 .product-image img {
-    max-height: 80%;
+    max-height: 90%;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     transition: var(--transition);
+}
+
+.product-image .svg-product {
+    max-height: 80%;
+    max-width: 80%;
 }
 
 .product-card:hover .product-image img {
